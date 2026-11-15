@@ -19,7 +19,6 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-    @Column(length = 50,nullable = false)
     String name;
 
     @ManyToOne

@@ -29,6 +29,9 @@ public class Category {
     String description;
 
 
+    boolean isFeatured;
+
+
     @OneToMany(mappedBy = "category")
     List<SubCategory> subCategories = new ArrayList<>();
 

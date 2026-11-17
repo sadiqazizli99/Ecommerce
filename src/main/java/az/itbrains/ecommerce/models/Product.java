@@ -21,6 +21,10 @@ public class Product {
     Long id;
     String name;
 
+    boolean isFeatured;
+    boolean isHotTrend;
+    boolean isBestSeller;
+
     @ManyToOne
     SubCategory subCategory;
 
